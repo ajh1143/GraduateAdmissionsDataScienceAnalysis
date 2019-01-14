@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 # Set file path
-file_path = 'C:\\Users\\ajh20\Desktop\graduate-admissions\Admission_Predict.csv'
+file_path = '...Admission_Predict.csv'
 
 # Create DataFrame from source file
 df = pd.read_csv(file_path)
