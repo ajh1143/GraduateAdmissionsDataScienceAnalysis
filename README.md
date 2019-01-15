@@ -24,7 +24,7 @@ Generate summary statistics
     print(df.describe())
 ```
 ## Extract features, target
-Target: Probability of admission
+Target: Probability of admission    
 Features: Drop target, drop `Serial No.` (used as index)
 ```Python3
     target = df["Chance of Admit "].values
