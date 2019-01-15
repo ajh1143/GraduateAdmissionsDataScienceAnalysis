@@ -17,7 +17,7 @@
     df = pd.read_csv(file_path)
 ```
 ## Exploratory Data Analysis
-Generate columns, data types, counts
+Generate columns, data types, counts    
 Generate summary statistics
 ```Python3
     df.info()
