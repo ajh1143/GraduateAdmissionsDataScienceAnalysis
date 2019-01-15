@@ -31,9 +31,13 @@ Features: Drop target, drop `Serial No.` (used as index)
     features = df.drop(["Chance of Admit ", 'Serial No.'],axis=1)
 ```
 ## Viz
-Plot Histogram distributions of features
+Plot Histogram distributions of features, with axes labeled for each plot
 ```Python3
-    features.hist()
+for each in features:
+    features[each].hist()
+    plt.title(each+ ' distribution')
+    plt.xlabel(each)
+    plt.ylabel("Observations\n(Count)")
     plt.show()
 ```
 ## test, train
