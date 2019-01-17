@@ -2,7 +2,7 @@
 *In Progress*
 
 ## Dataset Columns
-`Serial No.	    
+Serial No.	    
 GRE Score    
 TOEFL Score    
 University Rating    
@@ -10,7 +10,7 @@ SOP
 LOR	    
 CGPA    	
 Research    	
-Chance of Admit`
+Chance of Admit
 
 ## Imports
 ```Python3
