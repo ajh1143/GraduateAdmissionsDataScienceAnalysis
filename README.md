@@ -1,6 +1,9 @@
 # Kaggle Dataset Analysis - Graduate Admissions
 *In Progress*
 
+## Dataset Columns
+`Serial No.,	GRE Score,	TOEFL Score,	University Rating,	SOP,	LOR,	CGPA,	Research,	Chance of Admit`
+
 ## Imports
 ```Python3
     import pandas as pd
